@@ -19,15 +19,22 @@
     <!-- video player -->
     <link rel="stylesheet" href="./Landing.js" />
     <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@ .2.19/dist/tailwind.min.css"
       rel="stylesheet"
     />
+
+    <!-- js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    
+
+    <!-- css -->
+    <link rel="stylesheet" href="./Landing.css">
 
     <style>
       /* Custom styles for responsiveness */
       .video-container {
         position: relative;
-        padding-top: 56.25%; /* 16:9 Aspect Ratio */
+        padding-top: 56.-5%; /* 16:9 Aspect Ratio */
         height: 0;
       }
       .video-container iframe,
@@ -112,7 +119,7 @@
 
         <div class="mt-2">
           <div class="bg-white w-11/12 h-auto mx-auto rounded-lg">
-            <div class="hero-content flex-col lg:flex-row">
+            <div class="hero-content flex-col lg:flex-row-reverse">
               <div class="list-none text-xl font-bold w-1/2 text-left leading-10	">
                 <li>
                   <i class="fa-solid fa-angles-right"></i>
@@ -240,11 +247,210 @@
         </div>
         
 
+        <div class="pt-8">
+          <button class="btn btn-warning text-[#134F5C] text-2xl">
+            <span><i class="fa-solid fa-cart-arrow-down"></i></span>অর্ডার
+            করতে চাই
+          </button>
+        </div>
 
+        <div class="text-white text-4xl font-extrabold mt-10">
+          <h1>সম্মানিত কাস্টমারদের মতামত</h1>
+        </div>
         
+
+
+
+       <div class="p-6 bg">
+
+
+        <div class="swiper mySwiper bg-slate-300 p-2">
+          <div class="swiper-wrapper h-full">
+            
+            <div class="shadow-2xl swiper-slide border-2 border-yellow-400 rounded-sm">
+              <img src="https://i.ibb.co.com/hs07WLd/Screenshot-20240924-154532-You-Tube.jpg" alt="">
+             
+           </div>
+            <div class="shadow-2xl swiper-slide border-2 border-yellow-400 rounded-sm">
+              <img src="https://i.ibb.co.com/hs07WLd/Screenshot-20240924-154532-You-Tube.jpg" alt="">
+             
+           </div>
+            <div class="shadow-2xl swiper-slide border-2 border-yellow-400 rounded-sm">
+              <img src="https://i.ibb.co.com/hs07WLd/Screenshot-20240924-154532-You-Tube.jpg" alt="">
+             
+           </div>
+            <div class="shadow-2xl swiper-slide border-2 border-yellow-400 rounded-sm">
+              <img src="https://i.ibb.co.com/hs07WLd/Screenshot-20240924-154532-You-Tube.jpg" alt="">
+             
+           </div>
+            <div class="shadow-2xl swiper-slide border-2 border-yellow-400 rounded-sm">
+              <img src="https://i.ibb.co.com/hs07WLd/Screenshot-20240924-154532-You-Tube.jpg" alt="">
+             
+           </div>
+            <div class="shadow-2xl swiper-slide border-2 border-yellow-400 rounded-sm">
+              <img src="https://i.ibb.co.com/hs07WLd/Screenshot-20240924-154532-You-Tube.jpg" alt="">
+             
+           </div>
+            
+            
+          </div>
+        
+          <!-- Optional navigation buttons -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        
+          <!-- Optional pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+       </div>
+        
+        
+        
+
+       <div class="pt-8">
+        <button class="btn btn-warning text-[#134F5C] text-2xl">
+          <span><i class="fa-solid fa-cart-arrow-down"></i></span>অর্ডার
+          করতে চাই
+        </button>
+      </div>
+
+      
+
+      <div class="rounded-sm shadow-lg text-4xl bg-slate-300 font-extrabold mt-10 mx-4 p-2 text-black">
+        <h1>নিয়মিত মূল্য  ১০৫০ টাকা 
+          / ডিস্কাউন্ট মূল্য:  ৮৫০  টাকা</h1>
+      </div>
+      <div class="rounded-sm shadow-lg text-4xl bg-slate-300 font-extrabold mt-10 mx-4 p-2 text-black">
+        <h1>সারাদেশে ডেলিভারি চার্জ মাত্র ৫০ টাকা।</h1>
+      </div>
+      
+      <div class="text-white text-5xl font-extrabold mt-10 p-6">
+        <h1>অর্ডার করতে নিচের ফর্ম পূরণ করে “কনফার্ম অর্ডার” বাটনে ক্লিক করুন।</h1>
+      </div>
+      
+
+      <section class="p-6">
+
+        <div class="hero  min-h-screen "
+        style="background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp);"
+  
+        >
+        
+         <div class="hero-content flex-col lg:flex-row-reverse p-6 hero-overlay bg-slate-300/80">
+           <div class="w-1/2">
+           <h1 class="text-2xl font-medium">Your order</h1>
+           <div class="w-full ">
+            <div class="mx-auto">
+              <table class="table  mx-auto">
+                <!-- head -->
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Product</th>
+                    <th></th>
+                    <th>Subtotal</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- row 1 -->
+                  <tr class="">
+                    <th></th>
+                    <td class=" flex items-center">
+                      <div class="avatar">
+                        
+                        <div class=" relative ">
+                          <div class="absolute bottom-8 right-8">
+                            <button class=""><i class="w-4 fa-solid fa-xmark rounded-full bg-slate-50"></i>
+                            </button>
+                          </div>
+                          
+                          <div class="w-12"><img 
+                            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                            alt="Tailwind-CSS-Avatar-component" /></div>
+                            
+                        </div>
+                      </div>
+                      অর্জুন হার্ট কেয়ার-400gm
+                      </td>
+                    <td>1x</td>
+                    <td>850.00৳</td>
+                  </tr>
+                  <!-- row 2 -->
+                  <tr>
+                    <th></th>
+                    <td>Subtotal</td>
+                    <td></td>
+                    <td>850.00৳</td>
+                  </tr>
+                  <!-- row 3 -->
+                  <tr>
+                    <th></th>
+                    <td>Shipping</td>
+                    <td></td>
+                    <td>সারাদেশে মাত্র: <br> 50.00৳ </td>
+                  </tr>
+                  <tr class="font-bold">
+                    <th></th>
+                    <td>Total</td>
+                    <td></td>
+                    <td><br> 900.00৳ </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+           </div>
+           </div>
+            <div class="w-1/2 text-left  ">
+              <h1 class="text-2xl font-medium">Billing details</h1>
+              <div class="text-base leading-8">
+                <div>
+                  <span>আপনার নাম<span class="text-red-500 "> *</span></span><br>
+                  <input class="w-1/2 rounded-md" placeholder="আপনার নাম " type="text"><br>
+                </div>
+                <div>
+                  <span>আপনার সম্পূর্ণ ঠিকানা <span class="text-red-500 "> *</span></span><br>
+                  <input class="w-full rounded-md" placeholder="আপনার সম্পূর্ণ ঠিকানা" type="text"><br>
+                </div>
+                <div>
+                  <span>ফোন নম্বর <span class="text-red-500 "> *</span></span><br>
+                  <input class="w-full rounded-md" placeholder="ফোন নম্বর " type="te"><br>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+        <div>
+      </section>
       </section>
 
+
+      
+
       <!-- </section> -->
+      
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper('.mySwiper', {
+          slidesPerView: 1, // Default 1 slide for mobile
+          spaceBetween: 10,
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          breakpoints: {
+            768: {
+              slidesPerView: 3, // Show 3 slides at a time on larger screens
+              spaceBetween: 20,
+            }
+          },
+        });
+      </script>
+      
+     
     </main>
   </body>
 </html>
